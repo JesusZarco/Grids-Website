@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px 5px;
+    
+    justify-content: center;
+  
+}
+
+.grid-item {
+    background-color: rgb(85, 212, 26);
+    text-align: center;
+}
+
+
+.special-snowflake {
+    grid-column: 2/3;
+}
+
+
+
+
+
+ 
