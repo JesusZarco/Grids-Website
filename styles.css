@@ -18,7 +18,40 @@
 }
 
 
+.content-articles {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .article {
+    padding: 10px;
+    border: 1px solid #ad2b2b;
+    border-radius: 5px;
+    margin-top: 20%;
+  }
+  .article h3 {
+    margin-top: 0;
+    color: chocolate;
+  }
 
+  
 
-
- 
+  .grid-flexbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #882222;
+    padding: 10px;
+  }
+  .flexbox-container div {
+    width: 30%;
+    background-color: #b97316;
+    padding: 10px;
+    text-align: center;
+  }
